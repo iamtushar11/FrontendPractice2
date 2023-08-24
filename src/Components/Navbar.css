@@ -1,0 +1,104 @@
+.modal {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 90px;
+    margin-bottom: 1px;
+    font-family: 'GT America Standard', sans-serif;
+    line-height: 1.5;
+
+}
+
+nav {
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.line {
+    height: 30px;
+    width: 1px;
+    background-color: white;
+}
+
+nav ul {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+    gap: 15px;
+    list-style-type: none;
+}
+
+.li1 {
+
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.li1:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.li2 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.li2:hover {
+    text-decoration: underline;
+}
+
+.buttons {
+
+    margin: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.btn1 {
+    border: none;
+    font-size: 24px;
+    background-color: #191a1b;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 6px 22px;
+    display: inline-block;
+    text-align: center;
+    font-family: "GT America Standard", serif;
+    font-weight: 400;
+    cursor: pointer;
+    line-height: 1.5;
+    margin-left: 20px;
+}
+
+.btn2 {
+    font-size: 24px;
+    padding: 6px 22px;
+    font-family: "GT America Standard", serif;
+    color: white;
+    border: none;
+    background: #4C5FD5;
+    border-color: #4C5FD5;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 8px;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 400;
+    cursor: pointer;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+.btn2:hover {
+    background: white;
+    color: black;
+    border-color: white;
+}
